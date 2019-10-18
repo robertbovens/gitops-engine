@@ -54,6 +54,7 @@ accidental pruning.
 The difference is very minor. I don't think it will affect the user and we can just ignore it.
 
 - `Feature` Delete Order. Flux deletes resources in the reverse order, Argo CD does not.
+- `Feature` Git secretes. Fluxes optionally executes `git reveal secret` prior rendering manifests. Argo CD does not have such feature.
 
 ### Hypothesis and assumptions
 
